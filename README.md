@@ -36,3 +36,9 @@ make clean && make DUTY_CYCLE=192 hpwm.hex
 * [...] - for programming only.
 * (...) - fan wire color.
 ```
+
+## TODO
+
+* Adjust speed dynamically based on measurements from ATtiny's internal
+temperature sensor, see "17.12 Temperature Measurement" in the
+[datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf).
